@@ -1,0 +1,74 @@
+<Deploy>
+  <LastDeployTime>2016-05-19 23:17:49</LastDeployTime>
+  <LastDeployData><![CDATA[<?xml version="1.0"?>
+<component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" code="designschema_com_toone_v3_platform_ui_widget_mobile_paypassword" name="支付密码" desc="">
+  <windows />
+  <logics />
+  <models />
+  <variants />
+  <options />
+  <querys />
+  <resourcePackages />
+  <expressions />
+  <metaInfos>
+    <metaInfo type="model">
+      <modelMetas />
+    </metaInfo>
+  </metaInfos>
+  <menuItems />
+  <resources>
+    <resource type="image" fullName="Fileno.png" fileCode="Fileno" isDeleted="false">
+      <content>resource/Fileno.png</content>
+    </resource>
+    <resource type="image" fullName="Fileno_1.png" fileCode="Fileno_1" isDeleted="false">
+      <content>resource/Fileno_1.png</content>
+    </resource>
+  </resources>
+  <manifest>
+    <bundle-info>
+      <symbolic-name>designschema_com_toone_v3_platform_ui_widget_mobile_paypassword</symbolic-name>
+      <bundle-name>支付密码</bundle-name>
+      <bundle-version>3.2.1.SNAPSHOT</bundle-version>
+      <bundle-type>DesignSchema</bundle-type>
+      <bundle-metadata>&lt;MetaDataEntity&gt;
+    &lt;ComponentCategory&gt;Control&lt;/ComponentCategory&gt;
+    &lt;Forms /&gt;
+    &lt;Datas&gt;
+        &lt;MetaDataKeyValueEntity&gt;
+            &lt;Key&gt;WindowType&lt;/Key&gt;
+            &lt;Value&gt;2&lt;/Value&gt;
+        &lt;/MetaDataKeyValueEntity&gt;
+        &lt;MetaDataKeyValueEntity&gt;
+            &lt;Key&gt;Type&lt;/Key&gt;
+            &lt;Value&gt;JGMPayPassword&lt;/Value&gt;
+        &lt;/MetaDataKeyValueEntity&gt;
+    &lt;/Datas&gt;
+    &lt;ControlMeta&gt;&amp;lt;Control Code="JGMPayPassword" Name="支付密码" IsValueMode="false" IsBusiness="true" IsContainer="false" IsColumnMetaData="false" Category="generalComponent" IsSecondaryDev="true" DesignUrl="Toone.V3.DevSystem.Common.Controls|Toone.V3.DevSystem.Common.Controls.CommonControl.Mobile.CommonSecDevControlForMobile" Image="resource\Fileno.png" Thumbnail="resource\Fileno_1.png" StyleTemplate="" IsUseStlyeTemplate="false" Visible="true" WindowType="2" ChildExtPoint="" ChildExtension="" Author="Toone" Version="3.2.1.SNAPSHOT" VersionTime="201604242238" Remark=""&amp;gt;
+  &amp;lt;Propertys&amp;gt;
+    &amp;lt;Property Code="Code" Name="控件名称" PropertyValueType="System.String" PropertyEditor="" DropDownItems="" InitValue="" Category="Other" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="true" OrderNo="1" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="Spacing" Name="外边距" PropertyValueType="System.Windows.Forms.Padding" PropertyEditor="" DropDownItems="" InitValue="0,0,0,0" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="2" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="DisplayScale" Name="显示比例" PropertyValueType="System.String" PropertyEditor="DisplayScaleEditorForChild" DropDownItems="" InitValue="12" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="3" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="MaxLength" Name="密码位数" PropertyValueType="System.Int32" PropertyEditor="" DropDownItems="" InitValue="6" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="true" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="4" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="MoreActionText" Name="更多操作文本" PropertyValueType="System.String" PropertyEditor="" DropDownItems="" InitValue="忘记密码？" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="false" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="5" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="InvalidPasswordMessage" Name="错误提示信息" PropertyValueType="System.String" PropertyEditor="" DropDownItems="" InitValue="密码错误！" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="6" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="TableName" Name="实体名" PropertyValueType="System.String" PropertyEditor="SelectTableEditor" DropDownItems="" InitValue="" Category="Data" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="false" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="true" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="7" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="ColumnName" Name="字段名称" PropertyValueType="System.String" PropertyEditor="SelectColumnEditor" DropDownItems="" InitValue="" Category="Data" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="false" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="true" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="8" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="OnFinished" Name="输入完成事件" PropertyValueType="System.String" PropertyEditor="ActionListEditor" DropDownItems="" InitValue="" Category="Event" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="9" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="OnMoreOper" Name="更多操作事件" PropertyValueType="System.String" PropertyEditor="ActionListEditor" DropDownItems="" InitValue="" Category="Event" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="10" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="ValidPassword" Name="密码验证结果" PropertyValueType="System.String" PropertyEditor="" DropDownItems="" InitValue="false" Category="Data" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="false" Visible="false" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="true" IsAllowGetValue="true" OrderNo="11" VerifyRex="" Remark="" /&amp;gt;
+  &amp;lt;/Propertys&amp;gt;
+&amp;lt;/Control&amp;gt;&lt;/ControlMeta&gt;
+&lt;/MetaDataEntity&gt;</bundle-metadata>
+      <provider />
+      <description />
+      <lastModified>1463671069000</lastModified>
+    </bundle-info>
+    <interface>
+      <apis />
+      <spis />
+    </interface>
+    <dependencies />
+    <imports />
+  </manifest>
+</component>]]></LastDeployData>
+</Deploy>

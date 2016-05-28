@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Component code="designschema_com_toone_v3_platform_ui_widget_mobile_map" name="地图控件" version="3.4.1.SNAPSHOT" type="Function" category="Control">
+  <Provider><![CDATA[]]></Provider>
+  <Description><![CDATA[]]></Description>
+  <References />
+</Component>

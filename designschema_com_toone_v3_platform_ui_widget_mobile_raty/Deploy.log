@@ -1,0 +1,78 @@
+<Deploy>
+  <LastDeployTime>2016-05-28 08:29:39</LastDeployTime>
+  <LastDeployData><![CDATA[<?xml version="1.0"?>
+<component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" code="designschema_com_toone_v3_platform_ui_widget_mobile_raty" name="星级评分" desc="">
+  <windows />
+  <logics />
+  <models />
+  <variants />
+  <options />
+  <querys />
+  <resourcePackages />
+  <expressions />
+  <metaInfos>
+    <metaInfo type="model">
+      <modelMetas />
+    </metaInfo>
+  </metaInfos>
+  <menuItems />
+  <resources>
+    <resource type="image" fullName="Fileno.png" fileCode="Fileno" isDeleted="false">
+      <content>resource/Fileno.png</content>
+    </resource>
+  </resources>
+  <manifest>
+    <bundle-info>
+      <symbolic-name>designschema_com_toone_v3_platform_ui_widget_mobile_raty</symbolic-name>
+      <bundle-name>星级评分</bundle-name>
+      <bundle-version>3.2.1.SNAPSHOT</bundle-version>
+      <bundle-type>DesignSchema</bundle-type>
+      <bundle-metadata>&lt;MetaDataEntity&gt;
+    &lt;ComponentCategory&gt;Control&lt;/ComponentCategory&gt;
+    &lt;Forms /&gt;
+    &lt;Datas&gt;
+        &lt;MetaDataKeyValueEntity&gt;
+            &lt;Key&gt;WindowType&lt;/Key&gt;
+            &lt;Value&gt;2&lt;/Value&gt;
+        &lt;/MetaDataKeyValueEntity&gt;
+        &lt;MetaDataKeyValueEntity&gt;
+            &lt;Key&gt;Type&lt;/Key&gt;
+            &lt;Value&gt;JGMRaty&lt;/Value&gt;
+        &lt;/MetaDataKeyValueEntity&gt;
+    &lt;/Datas&gt;
+    &lt;ControlMeta&gt;&amp;lt;Control Code="JGMRaty" Name="星级评分" IsValueMode="false" IsBusiness="true" IsContainer="false" IsColumnMetaData="false" Category="generalComponent" IsSecondaryDev="true" DesignUrl="Toone.V3.DevSystem.Common.Controls|Toone.V3.DevSystem.Common.Controls.CommonControl.Mobile.CommonSecDevControlForMobile" Image="resource\Fileno_1.png" Thumbnail="resource\Fileno.png" StyleTemplate="" IsUseStlyeTemplate="false" Visible="true" WindowType="2" ChildExtPoint="" ChildExtension="" Author="Toone" Version="3.2.1.SNAPSHOT" VersionTime="201604230010" Remark=""&amp;gt;
+  &amp;lt;Propertys&amp;gt;
+    &amp;lt;Property Code="Code" Name="控件名称" PropertyValueType="System.String" PropertyEditor="" DropDownItems="" InitValue="" Category="Other" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="true" OrderNo="1" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="DisplayScale" Name="显示比例" PropertyValueType="System.String" PropertyEditor="DisplayScaleEditorForChild" DropDownItems="" InitValue="12" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="2" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="Spacing" Name="外边距" PropertyValueType="System.Windows.Forms.Padding" PropertyEditor="" DropDownItems="" InitValue="0,0,0,0" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="3" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="ReadOnly" Name="只读" PropertyValueType="System.Boolean" PropertyEditor="" DropDownItems="" InitValue="false" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="true" IsAllowGetValue="true" OrderNo="4" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="Visible" Name="显示" PropertyValueType="System.Boolean" PropertyEditor="" DropDownItems="" InitValue="true" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="true" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="true" IsAllowGetValue="true" OrderNo="5" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="TableName" Name="实体名" PropertyValueType="System.String" PropertyEditor="SelectTableEditor" DropDownItems="" InitValue="" Category="Data" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="false" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="true" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="6" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="ColumnName" Name="字段名称" PropertyValueType="System.String" PropertyEditor="SelectColumnEditor" DropDownItems="" InitValue="" Category="Data" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="false" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="true" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="7" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="Width" Name="宽度" PropertyValueType="System.Int32" PropertyEditor="" DropDownItems="" InitValue="100" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="false" IsCommon="true" IsStyle="true" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="8" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="Height" Name="高度" PropertyValueType="System.Int32" PropertyEditor="" DropDownItems="" InitValue="30" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="false" IsCommon="true" IsStyle="true" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="9" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="Left" Name="左边距" PropertyValueType="System.Int32" PropertyEditor="" DropDownItems="" InitValue="0" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="false" IsCommon="true" IsStyle="true" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="10" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="Top" Name="上边距" PropertyValueType="System.Int32" PropertyEditor="" DropDownItems="" InitValue="0" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="false" IsCommon="true" IsStyle="true" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="11" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="LabelText" Name="标题" PropertyValueType="System.String" PropertyEditor="" DropDownItems="" InitValue="星级评价" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="true" IsAllowGetValue="true" OrderNo="12" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="LabelTextVisible" Name="显示标题" PropertyValueType="System.Boolean" PropertyEditor="" DropDownItems="" InitValue="true" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="true" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="true" IsAllowGetValue="true" OrderNo="13" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="LabelPercentWidth" Name="标题宽度(%)" PropertyValueType="System.String" PropertyEditor="" DropDownItems="" InitValue="30" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="false" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="14" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="StarIcon" Name="默认星星图标" PropertyValueType="System.String" PropertyEditor="IconsSelector" DropDownItems="" InitValue="iconfont icon-favorfill" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="15" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="StarVal" Name="每颗星分数" PropertyValueType="System.Decimal" PropertyEditor="" DropDownItems="" InitValue="20" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="true" IsAllowGetValue="true" OrderNo="16" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="StarMax" Name="星数量" PropertyValueType="System.Int32" PropertyEditor="" DropDownItems="" InitValue="5" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="false" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="17" VerifyRex="" Remark="" /&amp;gt;
+    &amp;lt;Property Code="StarAlign" Name="星星对齐方式" PropertyValueType="System.String" PropertyEditor="CustomDropDownListEditor" DropDownItems="left:left,center:center,right:right" InitValue="right" Category="Layout" IsComplexValue="false" IsMust="false" IsAllowEditor="true" IsAllowHand="true" Visible="true" IsCommon="true" IsStyle="true" IsDataSource="false" IsDataMember="false" IsCanGenerateCode="true" IsNeedDeploy="true" IsAllowSetValue="false" IsAllowGetValue="false" OrderNo="18" VerifyRex="" Remark="" /&amp;gt;
+  &amp;lt;/Propertys&amp;gt;
+&amp;lt;/Control&amp;gt;&lt;/ControlMeta&gt;
+&lt;/MetaDataEntity&gt;</bundle-metadata>
+      <provider />
+      <description />
+      <lastModified>1464395377000</lastModified>
+    </bundle-info>
+    <interface>
+      <apis />
+      <spis />
+    </interface>
+    <dependencies />
+    <imports />
+  </manifest>
+</component>]]></LastDeployData>
+</Deploy>

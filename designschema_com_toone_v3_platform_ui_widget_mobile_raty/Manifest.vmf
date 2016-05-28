@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ManifestInfor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ComponentInfor>
+    <ComponentCode>designschema_com_toone_v3_platform_ui_widget_mobile_raty</ComponentCode>
+    <ComponentName>星级评分</ComponentName>
+    <IsExist>false</IsExist>
+    <ComponentVersion>3.2.1.SNAPSHOT</ComponentVersion>
+  </ComponentInfor>
+  <MetaInfors>
+    <metaInfo type="model">
+      <modelMetas />
+    </metaInfo>
+  </MetaInfors>
+  <InterfaceInfor>
+    <apis />
+    <spis />
+  </InterfaceInfor>
+</ManifestInfor>
