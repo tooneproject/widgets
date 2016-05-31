@@ -1,5 +1,5 @@
 <Deploy>
-  <LastDeployTime>2016-05-28 08:29:39</LastDeployTime>
+  <LastDeployTime>2016-05-29 20:38:14</LastDeployTime>
   <LastDeployData><![CDATA[<?xml version="1.0"?>
 <component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" code="designschema_com_toone_v3_platform_ui_widget_mobile_raty" name="星级评分" desc="">
   <windows />
@@ -65,7 +65,7 @@
 &lt;/MetaDataEntity&gt;</bundle-metadata>
       <provider />
       <description />
-      <lastModified>1464395377000</lastModified>
+      <lastModified>1464525491000</lastModified>
     </bundle-info>
     <interface>
       <apis />
