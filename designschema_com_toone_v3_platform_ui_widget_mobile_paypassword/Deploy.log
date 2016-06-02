@@ -1,5 +1,5 @@
 <Deploy>
-  <LastDeployTime>2016-05-19 23:17:49</LastDeployTime>
+  <LastDeployTime>2016-05-31 21:04:52</LastDeployTime>
   <LastDeployData><![CDATA[<?xml version="1.0"?>
 <component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" code="designschema_com_toone_v3_platform_ui_widget_mobile_paypassword" name="支付密码" desc="">
   <windows />
@@ -61,7 +61,7 @@
 &lt;/MetaDataEntity&gt;</bundle-metadata>
       <provider />
       <description />
-      <lastModified>1463671069000</lastModified>
+      <lastModified>1464699892000</lastModified>
     </bundle-info>
     <interface>
       <apis />

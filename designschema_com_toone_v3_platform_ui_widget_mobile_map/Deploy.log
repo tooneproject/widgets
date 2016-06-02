@@ -1,5 +1,5 @@
 <Deploy>
-  <LastDeployTime>2016-05-31 20:38:34</LastDeployTime>
+  <LastDeployTime>2016-05-31 21:28:40</LastDeployTime>
   <LastDeployData><![CDATA[<?xml version="1.0"?>
 <component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" code="designschema_com_toone_v3_platform_ui_widget_mobile_map" name="地图控件" desc="">
   <windows />
@@ -66,7 +66,7 @@
 &lt;/MetaDataEntity&gt;</bundle-metadata>
       <provider />
       <description />
-      <lastModified>1464698314000</lastModified>
+      <lastModified>1464701320000</lastModified>
     </bundle-info>
     <interface />
     <dependencies />
